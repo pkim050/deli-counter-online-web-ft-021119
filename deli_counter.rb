@@ -15,5 +15,5 @@ end
 def now_serving(array)
   return puts "There is nobody waiting to be served!" if array.size == 0
   name = array.shift()
-  puts "Currently serving #{name}."
+  return puts "Currently serving #{name}."
 end
